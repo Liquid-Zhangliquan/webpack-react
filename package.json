@@ -1,0 +1,20 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "webpack-react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --open --content-base build"
+  },
+  "author": "Liquid-Zhangliquan",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.8.0"
+  }
+}
